@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"Montserrat", sans-serif;
+    
+}
+.cabeça{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.haeder{
+    
+    width: 70%;
+    display: flex;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    flex: 1;
+    
+}
+.logoimg{
+    height: 100px;
+    width: 100px;
+}
+.home{
+    text-decoration: none;
+
+}
+nav ul li{
+    list-style: none;
+    padding-left: 10px;
+    
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+    transition: 0.7s ease; 
+    font-weight: bolder;
+    border-color: orange;
+}
+nav a:hover{
+    border-bottom: 3px solid orange;
+    font-size: 20px;
+    
+
+}
+.banner{
+    background-color: rgb(59, 59, 59);
+    height: calc(100vh - 100px);
+    background-image: url(../complementos/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.banner .sliders{
+    width: 1000vw;
+    height: 100%;
+}
+.banner .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.banner .slidearea{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.banner h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+.banner h1 span{
+    color: orange;
+}
+.banner h2{
+    text-transform: uppercase;
+}
+.banner a{
+    padding: 15px 60px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    border-radius: 40px;
+    margin: 20px 0px 0px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner .slider_point{
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    margin-top: -400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.banner .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid orange;
+    border-radius: 8px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.banner .pointer.active{
+    background-color: orange;
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.fm_2 .aboutus .titlle{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.titlle{
+    margin-top: 30px;
+
+}
+.weare{
+    display: block;
+    font-size: 13px;
+    color: #333;
+    padding: 10px 0px 0px 0px;
+}
+.everytitlle{
+    text-align: center;
+    
+}
+.text1{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px 0px 0px;
+    
+}
+.bodyvideotext{
+    display: flex;
+    width: 70%;
+    padding: 100px 0px 0px 0px;
+
+}
+.bodyvideotext .imgvideo{
+    width: 500px;
+    height: 500px;
+}
+.bodyvideotext .imgvideo img{
+    width: 100%;
+    box-shadow: 0px 0px 20px #333;
+    cursor: pointer;
+    
+}    
+.fundoblack{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.titlle2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.title_services{
+    padding: 20px 0px;
+    text-align: center;
+    
+}
+.provide{
+    font-size: 13px;
+    color: #333;
+    padding: 10px 0px 0px 0px;
+}
+.services2{
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    align-items: center;
+}
+.medalha {
+   text-align: center;
+}
+.services2 h2{
+    color: white;
+    
+}
+.services2 img{
+    width: 59px;
+    height: 80%;
+}
+.estrela{
+    text-align: center;
+}
+.relogio{
+    text-align: center;
+}
+.balao{
+    text-align: center;
+}
+.titlle3{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0px 0px 0px;
+}
+.menu2{
+    width: 40%;
+    background-color: rgb(177, 177, 177);
+    height: 50px;
+    border-radius: 40px;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photos{
+    display: block;
+   flex-direction: column;
+}
+.photos a{
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease;
+    border-color: orange;
+    
+
+}
+.photos a:hover{
+    border-bottom: 2px solid orange;
+    font-size: 16px;
+
+    
+}
+.fotos{
+    
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.fotos img{
+    width: 20%;
+    margin: 20px 20px;
+    box-shadow: 0px 0px 20px #333;
+    transition: 0.4s;
+}
+.layoutmenu{
+    display: flex;
+    justify-content: center;
+}
+.layoutfotos{
+    justify-content: center;
+    display: flex;
+    width: 80%;
+}
+.layout1{
+    display: flex;
+    justify-content: center;
+}
+.fotos img:hover{
+    scale: 122%;
+}
+.buttomphotos{
+    width: 10%;
+    background-color: orange;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.buttomphotos a{
+    text-decoration: none;
+    color: black;
+}
+.buttomphotos:hover{
+    scale: 102%;
+    transition: 1s ease;
+}
+.our_team{
+    
+    background-color: rgb(59, 59, 59);
+    height: 60vh;
+    background-image: url(../complementos/e2d30b8f34095658b5fa64c9a1d1e917.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.fundomeiopreto{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.titlle4{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0px 0px 0px;
+    color: white;
+}
+.heyhey{
+    display: block;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 10px 0px 0px 0px;
+}
+.fundobranco1{
+    display: flex;
+    justify-content: center;
+
+}
+.fundobranco{
+   
+    width: 80%;
+    height: 350px;
+    
+}
+.jane{
+    width: 20%;
+    height: 400px;
+    background-color: white;
+    border-radius: 40px;
+    justify-content: center;
+    
+}
+.jane img{
+    margin: 30px 0px 0px 0px;
+}
+.jane h2{
+    margin: 10px 0px 0px 0px;
+}
+.jane p{
+    margin: 10px 0px 0px 0px ;
+}
+.redes div{
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.redes{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+.redes1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.redes div img{
+    margin: 0px;
+}
+.person{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px 0px 0px;
+    
+}
